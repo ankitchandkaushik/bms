@@ -8,6 +8,7 @@ public class City {
   String name;
   List<Cinema> cinemas;
 
+
   public City(String name, List<Cinema> cinemas) {
     this.id = UUID.randomUUID().toString();
     this.name = name;
